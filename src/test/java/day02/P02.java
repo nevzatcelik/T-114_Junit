@@ -12,7 +12,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class day02 {
+public class P02 {
     /*
     1. Launch browser
     2. Navigate to url 'http://automationexercise.com'
@@ -35,7 +35,7 @@ public class day02 {
          //  1. Launch browser
         //    2. Navigate to url 'http://automationexercise.com'
         driver.get(https+"automationexercise.com");
-        //3. Verify that categories are visible on left side bar
+        //3. Verify that categories are visible on left side bar`
         WebElement categoryYazisi= driver.findElement(By.xpath("//h2[text()='Category']"));
         Assert.assertTrue(categoryYazisi.isDisplayed());
         //  4. Click on 'Women' category

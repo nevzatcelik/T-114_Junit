@@ -10,7 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class day01 {
+public class P01 {
     WebDriver driver;
     String https="https://www.";
 
